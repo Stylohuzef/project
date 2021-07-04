@@ -1,0 +1,202 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+
+.menu-bar{
+  position: absolute;
+  opacity: 1;
+  text-align: left;
+}
+
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+background: #19B3D3;
+opacity: 1;
+border-radius: 3px;
+}
+
+.menu-bar .fa{
+  margin-right: 8px;
+}
+
+.menu1{
+  display: none;
+}
+
+.menu-bar ul li:hover .menu1{
+  display: block;
+  position: absolute;
+  color: #19B3D3;
+  background: #19B3D3;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: -15px
+}
+
+.menu-bar ul li:hover .menu1 ul{
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .menu1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .menu1 ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .menu1 ul li a:hover{
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+
+.menu2{
+  display: none;
+}
+
+.menu-bar ul li:hover .menu2{
+  display: block;
+  position: absolute;
+  color: #19B3D3;
+  background: #19B3D3;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: -15px
+}
+
+.menu-bar ul li:hover .menu2 ul{
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .menu2 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .menu2 ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .menu2 ul li a:hover{
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+
+.menu3{
+  display: none;
+}
+
+.menu-bar ul li:hover .menu3{
+  display: block;
+  position: absolute;
+  color: #19B3D3;
+  background: #19B3D3;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: -15px
+}
+
+.menu-bar ul li:hover .menu3 ul{
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .menu3 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .menu3 ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .menu3 ul li a:hover{
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+.menu4{
+  display: none;
+}
+
+.menu-bar ul li:hover .menu4{
+  display: block;
+  position: absolute;
+  color: #19B3D3;
+  background: #19B3D3;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: -15px
+}
+
+.menu-bar ul li:hover .menu4 ul{
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .menu4 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .menu4 ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .menu4 ul li a:hover{
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+.fa-angle-right{
+  float: right;
+}
+
+#particles-js
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(College1.jpg);
+    height: 100vh;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}

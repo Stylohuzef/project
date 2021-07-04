@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+background-image: url(College1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: sans-serif;
+}
+
+.menu-bar{
+  position: absolute;
+  opacity: 1;
+  text-align: left;
+}
+
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  color: #fff;
+}
+
+.menu-bar ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-bar ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+background: #19B3D3;
+opacity: 1;
+border-radius: 3px;
+}
+
+.menu-bar .fa{
+  margin-right: 8px;
+}
+
+.menu1{
+  display: none;
+}
+
+.menu-bar ul li:hover .menu1{
+  display: block;
+  position: absolute;
+  color: #19B3D3;
+  background: #19B3D3;
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: -15px
+}
+
+.menu-bar ul li:hover .menu1 ul{
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .menu1 ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .menu1 ul li:last-child{
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .menu1 ul li a:hover{
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+
+.fa-angle-right{
+  float: right;
+}
+
+.sub-menu1{
+  display: none;
+}
+
+.hover-me:hover .sub-menu1{
+  position:absolute;
+  display: block;
+  margin-top: -40px;
+  margin-left: 140px;
+  color: #ffffff;
+  background: #19B3D3;
+  opacity: 1;
+}
+
+.box
+{
+  width: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.box h1
+{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.box input[type="text"],.box input[type="password"]
+{
+border= 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 3px solid #0367fd;
+padding: 14px 10px;
+width: 220px;
+outline: none;
+color: white;
+border-radius: 24px;
+transition: 0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+  width: 270px;
+  border-color: #ffc400ec;
+}
+
+.box input[type="submit"]
+{
+  border= 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 3px solid #ffc400ec;
+  padding: 14px 35px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover
+{
+  background: #ffc400ec;
+}

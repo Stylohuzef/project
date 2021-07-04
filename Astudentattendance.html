@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Faculty Profile</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script scr="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="/assets/dcode.css">
+  <link rel="stylesheet" href="Astudentattendance.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="menu-bar">
+<ul>
+   <li><a href="home.html"><i class="fa fa-home"></i>Home</a></li>
+   <li><a href="#Faculty profile"><i class="fa fa-graduation-cap"></i>Faculty Profile</a>
+   <div class="menu1">
+     <ul>
+   <li><a href="Vfacultyprofile.html"><i class="fa fa-address-book"></i>View Faculty Profile</a></li>
+   <li><a href="Efacultyprofile.html"><i class="fa fa-address-book"></i>Edit Faculty Profile</a></li>
+ </ul>
+   </div>
+ </li>
+   <li><a href="#faculty Attendance"><i class="fa fa-users"></i>Faculty Attendance</a>
+   <div class="menu2">
+     <ul>
+   <li><a href="Vfacultyattendance.html"><i class="fa fa-address-book"></i>View Faculty Attendance</a></li>
+ </ul>
+   </div>
+ </li>
+   <li><a href="#Student profile"><i class="fa fa-address-book"></i>Student Profile</a>
+<div class="menu3">
+  <ul>
+<li><a href="Astudentprofile.html"><i class="fa fa-address-book"></i>Add Student Profile</a></li>
+<li><a href="Vstudentprofile.html"><i class="fa fa-address-book"></i>View Student Profile</a></li>
+<li><a href="Estudentprofile.html"><i class="fa fa-address-book"></i>Edit Student profile</a></li>
+</ul>
+</div>
+</li>
+<li><a href="#Student attendance"><i class="fa fa-address-book"></i>Student Attendance</a>
+<div class="menu4">
+<ul>
+<li><a href="#"><i class="fa fa-address-book"></i><a href="Astudentattendance.html">Add Student Attendance</a></li>
+<li><a href="#"><i class="fa fa-address-book"></i><a href="Vstudentattendance.html">View Student Attendance</a></li>
+<li><a href="#"><i class="fa fa-address-book"></i><a href="Estudentattendance.html">Edit Student Attendance</a></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<br><br><br><br><br><br><br>
+<div class="regform"><h1>Add Student Attendance</h1></div>
+<div class="main">
+  <form action="Astudentattendance.cgi" method="POST">
+   <div class="name">Date</div>
+   <input type="date" class="date" name="Date1">
+   <div class="name">Huzefa Polaiwala*</div>
+   <select class="option" name="Huzefa_polaiwala" required>
+   <option disabled="disabled" selected="selected">--Choose option </option>
+   <option>Present</option>
+   <option>Absent</option>
+   </select>
+   <div class="name">Bhavik Panchal*</div>
+   <select class="option" name="Bhavik_panchal" required>
+   <option disabled="disabled" selected="selected">--Choose option </option>
+   <option>Present</option>
+   <option>Absent</option>
+   </select>
+   <div class="name">Mustufa Neemuchwala*</div>
+   <select class="option" name="Mustufa_neemuchwala" required>
+   <option disabled="disabled" selected="selected">--Choose option </option>
+   <option>Present</option>
+   <option>Absent</option>
+   </select>
+   <div class="name">Keyush Rawal*</div>
+   <select class="option" name="Keyush_rawal" required>
+   <option disabled="disabled" selected="selected">--Choose option </option>
+   <option>Present</option>
+   <option>Absent</option>
+   </select>
+   <button class="submit">Submit</button>
+   <button class="reset">Reset</button>
+</div>
+</form>
+</body>
+</html>

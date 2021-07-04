@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty Login Page</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="faculty.css">
+  <script src="faculty.js" charset="utf-8"></script>
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+  <link rel="stylesheet" href="/assets/dcode.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+        <div class="menu-bar">
+  <ul>
+      <li class="active"><a href="#"><i class="fa fa-home"></i><a href="home2.html">Home</a></a></li>
+     <li><a href="#"><i class="fa fa-steam"></i><a href="team.html">Teams</a></a></li>
+     <li><a href="#"><i class="fa fa-phone"></i><a href="conus.html">Contact Us</a></a></li>
+     <li><a href="#"><i class="fa fa-sign-in"></i>Login</a>
+  <div class="menu1">
+    <ul>
+  <li><a href="#"><i class="fa fa-users"></i><a href="admin.html">Admin</a></a></li>
+  <li class="hover-me"><a href="#"><i class="fa fa-users"></i>Facutly<i class="fa fa-angle-right"></i></a>
+  <div class="sub-menu1">
+    <ul>
+       <li><a href="#"><i class="fa fa-sign-in"></i><a href="faculty.html">Facutly Login</a></li>
+       <li><a href="#"><i class="fa fa-users"></i><a href="reg.html">New Account</a></li>
+    </ul>
+  </div>
+  </li>
+  <li class="hover-me"><a href="#"><i class="fa fa-users"></i>Student<i class="fa fa-angle-right"></i></a>
+  <div class="sub-menu1">
+    <ul>
+        <li><a href="#"><i class="fa fa-sign-in"></i><a href="student.html">Student Login</a></li>
+        <li><a href="#"><i class="fa fa-users"></i><a href="reg.html">New Account</a></li>
+    </ul>
+  </div>
+  </li>
+    </ul>
+  </div>
+     </li>
+
+  </ul>
+
+     </div>
+
+<form class="box" action="facultyhome.html" method="POST">
+
+<h1>
+  <i class="fa fa-user-circle"></i>Facutly Login
+</h1>
+<input type="text" name="" placeholder="UserId" id="username">
+<input type="password" name="" placeholder="Password" id="password">
+<input type="submit" name="" value="Submit" onclick="validate()">
+
+</form>
+</body>
+</html>
